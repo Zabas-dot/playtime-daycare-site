@@ -40,13 +40,18 @@
         .carousel-slide {
             flex: 0 0 100%;
         }
+        body, html {
+            overflow-x: hidden;
+            width: 100%;
+            position: relative;
+        }
     </style>
 </head>
 
 <body class="bg-gray-50 text-gray-800">
 
-<header class="bg-white shadow sticky top-0 z-50">
-    <div class="max-w-6xl mx-auto px-4 py-2 flex justify-between items-center">
+<header class="bg-white shadow sticky top-0 z-50 w-full">
+    <div class="max-w-6xl mx-auto px-4 py-2 flex justify-between items-center w-full">
 
         <h1 class="font-bold flex-shrink-0">
             <img src="logo.png" alt="Playtime Daycare Centre" class="h-24 sm:h-32 w-auto">
