@@ -1,0 +1,5 @@
+.icon {
+    width: 16px;  /* Set the width to 16px */
+    height: 16px; /* Set the height to 16px */
+    object-fit: contain; /* Ensures the image keeps its aspect ratio if it's not square */
+}
