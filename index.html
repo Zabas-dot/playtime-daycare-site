@@ -45,6 +45,11 @@
             flex: 0 0 100%;
             min-width: 0;
         }
+        .stroke-text {
+            -webkit-text-stroke: 2px white;
+            paint-order: stroke fill;
+        }
+
     </style>
 </head>
 
@@ -59,7 +64,7 @@
         </h1>
 
         <div class="flex items-center gap-3 md:gap-6">
-            <nav class="hidden md:flex gap-3 lg:gap-8 text-sm font-bold text-gray-600">
+            <nav class="hidden md:flex gap-3 lg:gap-8 text-md font-bold text-gray-600">
                 <a href="#programs" class="hover:text-[var(--logo-orange)] transition py-2">Programs</a>
                 <a href="#philosophy" class="hover:text-[var(--logo-green)] transition py-2">Philosophy</a>
                 <a href="#fees" class="hover:text-[var(--logo-orange)] transition py-2">Fees</a>
@@ -113,8 +118,12 @@
                 Proudly serving Ottawa families since 2005
             </div>
             <h2 class="text-4xl md:text-5xl font-black mb-4 leading-tight">
-                Where Little Ones Learn, Grow, and Belong
-            </h2>
+    Where Little Ones 
+    <span class="stroke-text" style="color: var(--logo-red);">Learn</span>, 
+    <span class="stroke-text" style="color: var(--logo-blue);">Grow</span>, and 
+    <span class="stroke-text" style="color: var(--logo-green);">Belong</span>
+</h2>
+
             <p class="text-lg mb-8 font-medium text-white/95">
                 Providing safe, structured, and nurturing early learning programs in Ottawa tailored to support your child's emotional, social, and physical development.
             </p>
